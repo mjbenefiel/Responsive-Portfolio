@@ -412,3 +412,11 @@ a {
         margin: auto;
    }
 }
+
+@media screen and (max-width: 790px) {
+    .links a{
+      position: inline;
+      font-size: 100%;
+     
+  }
+  }
