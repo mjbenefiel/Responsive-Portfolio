@@ -310,7 +310,7 @@ a {
 }
 
 
-/* screens 0 - 640px */
+/* screens 501 - 640px */
 @media screen and (max-width: 640px) {
   .main-nav-response {
       position: static;
