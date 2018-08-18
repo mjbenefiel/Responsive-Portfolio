@@ -299,6 +299,17 @@ a {
 @media (min-width: 0px) and (max-width: 640px) {
 }
 /* Custom CSS Media Queries Styling */
+
+/* screens 641 - 790px */
+@media screen and (max-width: 790px) {
+  .links a{
+    position: inline;
+    font-size: 100%;
+   
+}
+}
+
+
 /* screens 0 - 640px */
 @media screen and (max-width: 640px) {
   .main-nav-response {
@@ -336,11 +347,22 @@ a {
  }
 }
 
-@media screen and (max-width: 790px) {
+/* screens 0 - 500px */
+@media screen and (max-width: 500px) {
   .links a{
     position: inline;
-    font-size: 100%;
+    font-size: 75%;
    
 }
-}
+.main-nav-response p {
+  position: static;
+  list-style: none;
+  margin: 0 auto;
+  padding-right: 95px;
+  font-size: 75%;
+}};
+
+
+
+
 

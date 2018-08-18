@@ -328,48 +328,73 @@ a {
 }
 @media (min-width: 0px) and (max-width: 640px) {
 }
+/* CSS Media Queries */
+@media (min-width: 769px) and (max-width: 980px) {
+}
+@media (min-width: 641px) and (max-width: 768px) {
+}
+@media (min-width: 0px) and (max-width: 640px) {
+}
 /* Custom CSS Media Queries Styling */
-/* screens 0 - 640px */
-@media screen and (max-width: 640px) {
-    .main-nav-response {
-        position: static;
-        width: 100%;
-        height: auto;
-        padding-top: 10px;
-        margin: 0 auto;
-        text-align: center;
-        vertical-align: baseline;
-        color:#fff;
-        background-color: #4aaaa5;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 150%;
-   }
-    .main-nav-response p {
-        list-style: none;
-        position: static;
-        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-        padding: 25px 35px 15px 20px;
-        margin: 0 auto;
-        color:#fff;
-        background-color: #4aaaa5;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 120%;
-        border-bottom: 2px solid transparent;
-   }
-    .main-nav {
-        position: static;
-        list-style: none;
-        margin: 0 auto;
-        padding-right: 95px;
-   }
+
+/* screens 641 - 790px */
+@media screen and (max-width: 790px) {
+  .links a{
+    position: inline;
+    font-size: 100%;
+   
+}
 }
 
-@media screen and (max-width: 790px) {
-    .links a{
-      position: inline;
-      font-size: 100%;
-     
-  }
-  }
+
+/* screens 0 - 640px */
+@media screen and (max-width: 640px) {
+  .main-nav-response {
+      position: static;
+      width: 100%;
+      height: auto;
+      padding-top: 10px;
+      margin: 0 auto;
+      text-align: center;
+      vertical-align: baseline;
+      color:#fff;
+      background-color: #4aaaa5;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 150%;
+ }
+  .main-nav-response p {
+      list-style: none;
+      position: static;
+      font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+      padding: 25px 35px 15px 20px;
+      margin: 0 auto;
+      color:#fff;
+      background-color: #4aaaa5;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 120%;
+      border-bottom: 2px solid transparent;
+ }
+  .main-nav {
+      position: static;
+      list-style: none;
+      margin: 0 auto;
+      padding-right: 95px;
+ }
+}
+
+/* screens 0 - 500px */
+@media screen and (max-width: 500px) {
+  .links a{
+    position: inline;
+    font-size: 75%;
+   
+}
+.main-nav-response p {
+  position: static;
+  list-style: none;
+  margin: 0 auto;
+  padding-right: 95px;
+  font-size: 75%;
+}};
